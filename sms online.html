@@ -1,0 +1,60 @@
+<html><title>PingooMoslem - SMS Online</title><body>
+<h1><p align="right"><blink><a href="http://pingoomoslem.blogspot.com"/><= Back To</a></blink></p></h1>
+<style type="text/css">
+#gb{
+position:fixed;
+top:10px;
+z-index:+1000;
+}
+* html #gb{position:relative;}
+
+.gbcontent{
+float:right;
+border:3px solid #e6f1ff;
+background:##ffffff;
+padding:10px;
+}
+</style>
+
+<script type="text/javascript">
+function showHideGB(){
+var gb = document.getElementById("gb");
+var w = gb.offsetWidth;
+gb.opened ? moveGB(0, 30-w) : moveGB(20-w, 0);
+gb.opened = !gb.opened;
+}
+function moveGB(x0, xf){
+var gb = document.getElementById("gb");
+var dx = Math.abs(x0-xf) > 10 ? 5 : 1;
+var dir = xf>x0 ? 1 : -1;
+var x = x0 + dx * dir;
+gb.style.top = x.toString() + "px";
+if(x0!=xf){setTimeout("moveGB("+x+", "+xf+")", 10);}
+}
+</script>
+
+<div id="gb">
+
+<div class="gbtab" onclick="showHideGB()"> </div>
+
+<div class="gbcontent">
+<center>
+<center><img src="http://4.bp.blogspot.com/_RZRhogLGJzo/TDgEdZgA2qI/AAAAAAAAAjU/BXN508Uv7zg/S650/n109425485755811_6580.jpg"/></center>
+<iframe height="250" name="I2" src="http://sms-online.web.id/widget" width="600">&amp;lt;p&amp;gt;not support&amp;amp;amp;lt;br /&amp;amp;amp;gt; &amp;lt;/p&amp;gt;</iframe>
+
+<p align='center'><font color='#99C9FF'><font size='5'>PingooMoslem CopyRight© Rezky, Inc.</font></font></p><center><p>PingooMoslem - SMS Online</p></center>
+<div style="text-align:right">
+<a href="javascript:showHideGB()">
+<img src="https://sites.google.com/site/pingoomoslem/hosting/cancel.png" border="0"/>
+</a>
+</div>
+</center>
+
+<script type="text/javascript">
+var gb = document.getElementById("gb");
+gb.style.center = (30-gb.offsetWidth).toString() + "px";
+</script></center></div></div>
+
+
+</body></html>
+</body></html>
